@@ -14,7 +14,7 @@ A simple banking management system using **Python Flask** and **Oracle DB**. Thi
 ![Home](static/screenshots/home.png)
 
 ### 📝 Create Account
-![Create](static/screenshots/account.png)
+![Create](static/account.png)
 
 ### 💰 Deposit Money
 ![Deposit](static/screenshots/withdraw.png)
