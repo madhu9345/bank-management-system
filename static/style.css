@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3faff;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  margin: 10px 0;
+  font-size: 2.5rem;
+  animation: fadeIn 2s ease-in;
+}
+
+.menu-card {
+  background: white;
+  width: 80%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-card h2 {
+  margin-bottom: 20px;
+  color: #004080;
+}
+
+.menu-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-card ul li {
+  margin: 15px 0;
+}
+
+.menu-card ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #004080;
+  transition: color 0.3s ease;
+}
+
+.menu-card ul li a:hover {
+  color: #ff6600;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #004080;
+  color: white;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 1.2s ease-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
